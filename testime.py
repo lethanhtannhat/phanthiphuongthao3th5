@@ -59,11 +59,11 @@ def generate_precise_time_csv(file_name, n, start_str, end_str, start_h_limit, e
         print(f"Thành công! Đã tạo {n} hàng vào file '{file_name}'.")
 
 # --- CẤU HÌNH ---
-N_ROWS = 79
+N_ROWS = 302
 # Ngày 20 bắt đầu từ 18:00
-START_POINT = "04/11/2026 21:27" 
+START_POINT = "04/12/2026 12:27" 
 # Ngày 26 kết thúc lúc 23:59 để lấy được các giờ tối ngày 26
-END_POINT = "04/15/2026 16:59"    
+END_POINT = "04/18/2026 16:59"    
 
 # Giới hạn khung giờ hoạt động mỗi ngày
 LIMIT_START_H = 7
